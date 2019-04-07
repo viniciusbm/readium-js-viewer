@@ -1,3 +1,3 @@
 [submodule "readium-js"]
 	path = readium-js
-	url = https://github.com/viniciusbm/readium-js.git
+	url = git@github.com:viniciusbm/readium-js.git
