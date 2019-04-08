@@ -14,6 +14,16 @@ var _fontFaces_BUILT_IN =
         displayName: "Noto Serif",
         fontFamily: "Noto Serif",
         url: "Noto-Serif/Noto-Serif.css"
+    },
+    {
+        displayName: "Literata",
+        fontFamily: "Literata",
+        url: "Literata/Literata.css"
+    },
+    {
+        displayName: "Roboto",
+        fontFamily: "Roboto",
+        url: "Roboto/Roboto.css"
     }
 ];
 
@@ -66,11 +76,11 @@ var getFontFaces = function(URLprefix) {
 
     for (var i = 0; i < _fontFaces.length; i++) {
         var fontFace = _fontFaces[i];
-        
+
         var font = {};
         font.displayName = fontFace.displayName;
         font.fontFamily = fontFace.fontFamily;
-        
+
         var isOnlineWebFont = (fontFace.url.indexOf("http://") == 0) || (fontFace.url.indexOf("https://") == 0);
         font.url = isOnlineWebFont ? fontFace.url : (URLprefix + fontFace.url);
 
