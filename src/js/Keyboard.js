@@ -434,50 +434,50 @@ define(['i18nStrings', 'keymaster', 'Settings'], function(Strings, key, Settings
         },
         defaultOptions:  {},
         accesskeys: {}, // single key strokes are dynamically populated, based on the full shortcuts below:
-        ShowSettingsModal: 'o', //accesskey'ed
+        ShowSettingsModal: 'ctrl+o', //accesskey'ed
 
-        SettingsModalSave: 's', //accesskey'ed
-        SettingsModalClose: 'c', //accesskey'ed
+        SettingsModalSave: 'ctrl+s', //accesskey'ed
+        SettingsModalClose: 'ctrl+c', //accesskey'ed
 
         PagePrevious: 'left', // ALT BELOW
         PageNext: 'right', // ALT BELOW
-        PagePreviousAlt: '1', //accesskey'ed
-        PageNextAlt: '2', //accesskey'ed
+        PagePreviousAlt: '4', //accesskey'ed
+        PageNextAlt: '6', //accesskey'ed
 
-        ToolbarShow: 'v', //accesskey'ed
-        ToolbarHide: 'x', //accesskey'ed
+        ToolbarShow: 'ctrl+v', //accesskey'ed
+        ToolbarHide: 'ctrl+x', //accesskey'ed
 
-        FullScreenToggle: 'h', //accesskey'ed
+        FullScreenToggle: 'f', //accesskey'ed
 
-        SwitchToLibrary: 'b', //accesskey'ed
+        SwitchToLibrary: 'ctrl+l', //accesskey'ed
 
-        TocShowHideToggle: 't', //accesskey'ed
+        TocShowHideToggle: 'ctrl+t', //accesskey'ed
 
-        NightTheme: 'n', //accesskey'ed
+        NightTheme: 'ctrl+n', //accesskey'ed
 
-        MediaOverlaysEscape: 'r', //accesskey'ed
+        MediaOverlaysEscape: 'ctrl+r', //accesskey'ed
 
-        //MediaOverlaysPlayPauseAlt: 'p', // ALT BELOW
-        MediaOverlaysPlayPause: 'm', //accesskey'ed
+        MediaOverlaysPlayPauseAlt: '0', // ALT BELOW
+        MediaOverlaysPlayPause: 'space', //accesskey'ed
 
-        MediaOverlaysRateIncrease: 'l', //accesskey'ed
+        MediaOverlaysRateIncrease: 'h', //accesskey'ed
         MediaOverlaysRateDecrease: 'j', //accesskey'ed
         //MediaOverlaysRateIncreaseAlt: 'F8', //??
         //MediaOverlaysRateDecreaseAlt: 'shift+F8', //??
         MediaOverlaysRateReset: 'k', //accesskey'ed
 
-        MediaOverlaysVolumeIncrease: 'w', //accesskey'ed
-        MediaOverlaysVolumeDecrease: 'q', //accesskey'ed
+        MediaOverlaysVolumeIncrease: 'g', //accesskey'ed
+        MediaOverlaysVolumeDecrease: 'd', //accesskey'ed
         //MediaOverlaysVolumeIncreaseAlt: 'F7', //??
         //MediaOverlaysVolumeDecreaseAlt: 'shift+F7', //??
-        MediaOverlaysVolumeMuteToggle: 'a', //accesskey'ed
+        MediaOverlaysVolumeMuteToggle: 'm', //accesskey'ed
 
-        MediaOverlaysPrevious: 'y', //accesskey'ed
-        MediaOverlaysNext: 'u', //accesskey'ed
+        MediaOverlaysPrevious: 'up', //accesskey'ed
+        MediaOverlaysNext: 'down', //accesskey'ed
 
-        MediaOverlaysAdvancedPanelShowHide: 'g', //accesskey'ed
+        MediaOverlaysAdvancedPanelShowHide: 'ctrl+g', //accesskey'ed
 
-        BackgroundAudioPlayPause: 'd'
+        BackgroundAudioPlayPause: 'ctrl+d'
     };
 
     try
